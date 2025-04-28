@@ -1,0 +1,52 @@
+.signin-page {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #e6f9e5;
+}
+
+.signin-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 360px;
+}
+
+.signin-card h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.signin-card input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.remember-me {
+  display: inline-flex;      /* shrink-wrap to content */
+  align-items: center;       /* vertically center */
+  gap: 0.5rem;               /* space between checkbox & label */
+  margin-bottom: 1.5rem;     /* keep your spacing below */
+}
+
+.remember-me label {
+  margin: 0;                 /* remove any auto-margins */
+}
+
+
+.signin-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #285943;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  cursor: pointer;
+}
