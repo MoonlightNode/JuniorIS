@@ -1,0 +1,15 @@
+/* Remove all default margins/padding, make box-sizing predictable */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure the html/body fill the viewport */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}

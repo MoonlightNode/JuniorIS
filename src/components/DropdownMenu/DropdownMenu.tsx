@@ -31,24 +31,6 @@ const DropdownMenu: React.FC = () => {
           <li
             className="dropdown-item"
             onClick={() => {
-              navigate("/dashboard");
-              setIsOpen(false);
-            }}
-          >
-            Dashboard
-          </li>
-          <li
-            className="dropdown-item"
-            onClick={() => {
-              navigate("/settings");
-              setIsOpen(false);
-            }}
-          >
-            Settings
-          </li>
-          <li
-            className="dropdown-item"
-            onClick={() => {
               navigate("/profile");
               setIsOpen(false);
             }}

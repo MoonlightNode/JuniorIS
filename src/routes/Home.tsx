@@ -8,12 +8,12 @@ export default function Home() {
       <Navbar />
 
       <main className="home-content">
-        <h1 className="home-title">Olive Branch</h1>
+        <h1 className="home-title">Home Page</h1>
 
         <div className="home-widgets">
-          <div className="home-widget">Widget 1</div>
+          <div className="home-widget">Left Side</div>
           <div className="home-widget">Widget 2</div>
-          <div className="home-widget">Widget 3</div>
+          <div className="home-widget">Right Side</div>
         </div>
       </main>
     </div>

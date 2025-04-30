@@ -37,10 +37,10 @@ export default function Profile() {
     const stored = JSON.parse(localStorage.getItem('userProfile') || '{}');
     setData({
       profileImage:      stored.profileImage || '',
-      name:              stored.name         || 'Jane Doe',
-      major:             stored.major        || 'Computer Science, Class of 2025',
+      name:              stored.name         || 'Name',
+      major:             stored.major        || 'Major and Class year',
       followers:         stored.followers ?? 0,
-      bio:               stored.bio         || 'Hello! I’m Jane…',
+      bio:               stored.bio         || 'Hello! I’m…',
       academicInterests: (stored.academicInterests || []).join('\n'),
       careerGoals:       (stored.careerGoals       || []).join('\n'),
       demographics:      (stored.demographics      || []).join('\n'),
@@ -91,7 +91,6 @@ export default function Profile() {
 
       {/* Top bar with dropdown, edit/save/cancel, sign out */}
       <div className="profile-topbar">
-        <DropdownMenu />
         {editMode ? (
           <>
             <button className="save-button" onClick={handleSave}>

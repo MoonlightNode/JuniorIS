@@ -7,12 +7,27 @@
     background-color: #fae5d1;
     color: rgb(6, 0, 0);
   }
-  
-  .navbar-logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
+/* Brand container: logo + text */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* remove underline if using Link */
+}
+
+/* Logo image */
+.navbar-brand img {
+  height: 40px;      /* adjust size as needed */
+  width: auto;
+  margin-right: 0.5rem; /* space between logo and text */
+}
+
+/* Brand text */
+.navbar-brand-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1a202c;    /* your text color */
+}
+
   .navbar-links {
     display: flex;
     align-items: center;
